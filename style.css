@@ -101,7 +101,7 @@ body {
 
 .copied-notif {
     background-color: rgb(0, 255, 0);
-    position: absolute;
+    position: fixed;
     top: 20px;
     color: white;
     padding: 8px 20px;
@@ -109,7 +109,7 @@ body {
     font-weight: 600;
 
     transition: 0.5s;
-    opacity: 0;
+    opacity: 1;
 }
 
 footer {
